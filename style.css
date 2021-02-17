@@ -1,0 +1,24 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {background: #f6f6f6; display: flex; flex-direction: column; align-items: center; padding-top: 5em; font-family: 'Ubuntu', sans-serif; font-size: 14px;}
+.canvas {background: #fff; width: 700px; height: 700px; border-radius: 1em; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);}
+.colorControlWrap {position: relative; }
+.controlWrap {margin-top: 2em;}
+
+.brushControl {margin-bottom: 2em; text-align: center; }
+
+.btnControl {text-align: center; margin-bottom: 2em;}
+.btnControl button {display: inline-block; all: unset; background: #fff; cursor: pointer; width: 30px; padding: .5em 1.75em; border-radius: .5em; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); font-weight: 500;}
+
+.paletteControl {display: flex;}
+.paletteControl li {width: 35px; height: 35px; border-radius: 50%; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); cursor: pointer;}
+.paletteControl li.black {background: #2c2c2c;}
+.paletteControl li.white {background: #ffffff;}
+.paletteControl li.red {background: #FF3B30;}
+.paletteControl li.orange {background: #ff9500;}
+.paletteControl li.yellow {background: #FFCC00;}
+.paletteControl li.green {background: #4CD963;}
+.paletteControl li.blue {background: #5AC8FA;}
+.paletteControl li.navy {background: #0579FF;}
+.paletteControl li.violet {background: #5856D6;}

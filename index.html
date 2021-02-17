@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaintJS</title>
+    
     <link href="style.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="app.js"></script>
 </head>
 <body>
-    <script src="app.js"></script>
-    #######
-    
+    <canvas id="jsConvas" class="canvas"></canvas>
+    <div id="jsColor" class="controlWrap">
+        <!-- brush Area -->
+        <div class="brushControl">
+            <input type="range" id="jsRange" min="0.1" max="5" value="2.5" step="0.1">
+        </div>
+
+        <!-- button Area -->
+        <div class="btnControl">
+            <button id="jsMode">Fill</button>
+            <button id="jsSave">Save</button>
+        </div>
+
+        <!-- palette Area -->
+        <ul class="paletteControl" id="jsPalette">
+            <li class="black"></li>
+            <li class="white"></li>
+            <li class="red"></li>
+            <li class="orange"></li>
+            <li class="yellow"></li>
+            <li class="green"></li>
+            <li class="blue"></li>
+            <li class="navy"></li>
+            <li class="violet"></li>
+        </ul>
+    </div>
+
     
 </body>
 </html>
